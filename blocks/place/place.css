@@ -1,0 +1,15 @@
+.place {
+  display: grid;
+  /* Три колонки */
+  grid-template-columns: repeat(2, 1fr);
+  /* Два ряда */
+  grid-template-rows: auto auto auto auto;
+  /* Автоматическое размещение в ряд */
+  grid-auto-flow: row;
+  /* Отступы между ячейками */
+  gap: 10px;
+
+  /* Для красоты */
+  padding: 10px;
+  background-color: #2A2C2F;
+}
