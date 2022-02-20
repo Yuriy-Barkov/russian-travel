@@ -1,0 +1,8 @@
+.lead__vector {
+  position: absolute;
+  left: calc((39.14 / 928) * 100%);
+  top: calc((121.29 / 580) * 100%);
+  width: calc((836 / 928) * 100%);
+  height: calc((213 / 580) * 100%);
+  z-index: 1;
+}

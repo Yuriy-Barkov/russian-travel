@@ -1,4 +1,4 @@
-@media (max-width: 425px) {
+/*@media (max-width: 425px) {
 
 }
 
@@ -14,10 +14,11 @@
 
 }
 
-@media (min-width: 1281px) {
+@media (min-width: 1281px) {}*/
 
 .cover {
+  background-color: #2A2C2F;
   background-image: url(../../images/cover-trains.jpg);
-}
-
+  background-size: 100%;
+  background-origin: inherit;
 }

@@ -1,14 +1,7 @@
 .intro__text {
-  margin: 0;
-  padding: 0;
-  font-family: Inter;
-font-style: normal;
-font-weight: normal;
-font-size: 16px;
-line-height: 163%;
-/* or 26px */
-
-
-color: #FFFFFF;
-
+  margin: 0 0 0 calc((((1024 - 928) / 2) / 1024) * 100%);
+  padding: 40px 0 0;
+  width: 690px;
+  font: normal normal 16px/26px Inter, Arial, sans-serif;
+  color: #FFF;
 }
