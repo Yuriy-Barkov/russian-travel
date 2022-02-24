@@ -1,0 +1,6 @@
+.cover__conteiner {
+  width: 100%;
+  display: flex;
+  margin: auto;
+  position: relative;
+}

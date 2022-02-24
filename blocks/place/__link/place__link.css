@@ -1,12 +1,7 @@
 .place__link {
-  font-family: Inter;
-font-style: normal;
-font-weight: normal;
-font-size: 18px;
-line-height: 22px;
-/* identical to box height, or 122% */
-
-text-decoration-line: underline;
-
-color: #FFFFFF;
+  font: normal normal 18px/22px Inter Arial, sans-serif;
+  text-decoration-line: underline;
+  color: #FFF;
+  margin: auto auto 0 0;
+  padding: 0;
 }

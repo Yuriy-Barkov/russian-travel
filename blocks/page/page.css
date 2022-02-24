@@ -17,11 +17,7 @@
 @media (min-width: 1280px) {}*/
 
   .page {
-    /*background-color: #2A2C2F;*/
     min-width: 1024px;
     max-width: 1279px;
     margin: auto;
-    /*font-family: 'Inter', 'Inter var', 'Inter var experimental', Arial, sans-serif;*/
-
   }
-

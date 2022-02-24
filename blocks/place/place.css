@@ -1,15 +1,8 @@
 .place {
   display: grid;
-  /* Три колонки */
   grid-template-columns: repeat(2, 1fr);
-  /* Два ряда */
-  grid-template-rows: auto auto auto auto;
-  /* Автоматическое размещение в ряд */
-  grid-auto-flow: row;
-  /* Отступы между ячейками */
-  gap: 10px;
-
-  /* Для красоты */
-  padding: 10px;
-  background-color: #2A2C2F;
+  grid-template-rows: repeat(2, auto);
+  gap: 48px 32px;
+  margin: 0 4.6875% 0;
+  padding: 80px 0 0;
 }

@@ -1,0 +1,8 @@
+.place__paragraphs {
+  display: grid;
+  grid-template-rows: repeat(2, auto);
+  gap: 27px;
+  grid-column: 2/3;
+  grid-row: 2/3;
+  align-content: start;
+}

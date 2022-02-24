@@ -17,13 +17,9 @@
 @media (min-width: 1281px) {}*/
 
 
-  .photo-grid__items {
-
-    background-color: #2A2C2F;;
-    padding: 5% 5%;
-    width: 90%;
-    display: grid;
-    grid-template-columns: repeat(3, auto);
-    grid-template-rows: repeat(4, auto);
-    gap: 20px 20px;
-  }
+.photo-grid {
+  background-color: #2A2C2F;
+  margin: auto;
+  width: 100%;
+  padding: 92px 0 12px;
+}
