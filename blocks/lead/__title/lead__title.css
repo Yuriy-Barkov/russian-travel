@@ -4,5 +4,19 @@
   font: normal 900 96px/100px  Inter, Arial, sans-serif;
   text-align: center;
   color: #FFF;
-  width: calc((720 / 1024) * 100%);
+  width: 720px;
+}
+
+@media screen and (min-width: 320px) and (max-width: 424px) {
+  .lead__title {
+    font: normal 900 40px/44px  Inter, Arial, sans-serif;
+    width: 90%;
+  }
+}
+
+@media screen and (min-width: 425px) and (max-width: 767px) {
+  .lead__title {
+    font: normal 900 60px/66px  Inter, Arial, sans-serif;
+    width: 85%;
+  }
 }

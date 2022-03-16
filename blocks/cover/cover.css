@@ -17,7 +17,8 @@
 @media (min-width: 1281px) {}*/
 
 .cover {
+  position: relative;
   margin: 0;
-  padding: 92px 0 0;
+  padding: 96px 0 0;
   background-color: #2A2C2F;
 }

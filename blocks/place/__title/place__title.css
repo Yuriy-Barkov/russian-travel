@@ -1,9 +1,38 @@
 .place__title {
-  /*width: 42.96875%;*/
-  font: normal 900 72px/76px Inter, Arial, sans-serif;
+  grid-area: title;
   color: #FFF;
-  margin: auto auto 0 0;
-  padding: 0;
-  grid-column: 1/2;
-  grid-row: 1/2;
+}
+
+@media screen and (min-width: 320px) and (max-width: 424px) {
+  .place__title {
+    font: normal 900 32px/109% 'Inter', Arial, sans-serif;
+    margin: 0 5% 0 ;
+    padding: 0;
+  }
+}
+
+@media screen and (min-width: 425px) and (max-width: 767px) {
+
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .place__title {
+    font: normal 900 42px/110% 'Inter', Arial, sans-serif;
+    margin: auto auto 0 0 ;
+    padding: 0;
+    width: 97%;
+  }
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1279px) {
+  .place__title {
+    font: normal 900 72px/106% 'Inter', Arial, sans-serif;
+    margin: 3px auto 0 0 ;
+    padding: 0;
+    width: 97%;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+
 }

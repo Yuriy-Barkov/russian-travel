@@ -1,9 +1,44 @@
 .place__url-heading {
-  font: normal normal 12px/12px Inter, Arial, sans-serif;
-  letter-spacing: 2px;
+  grid-area: url-heading;
   color: #AAA;
-  margin: auto auto 0 0;
-  padding: 0;
-  /*grid-column: 2/3;
-  grid-row: 1/2;*/
+}
+
+@media screen and (min-width: 320px) and (max-width: 424px) {
+  .place__url-heading {
+    font: normal 400 12px/100% 'Inter', Arial, sans-serif;
+    letter-spacing: 2px;
+    margin: 32px 5% 0;
+    padding: 0;
+  }
+}
+
+@media screen and (min-width: 425px) and (max-width: 767px) {
+  .place__url-heading {
+    font: normal 400 12px/12px 'Inter', Arial, sans-serif;
+    letter-spacing: 2px;
+    margin: 32px 5% 0;
+    padding: 0;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .place__url-heading {
+    font: normal 400 12px/12px 'Inter', Arial, sans-serif;
+    letter-spacing: 2px;
+    margin: auto auto 13px 8%;
+    padding: 0;
+  }
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1279px) {
+  .place__url-heading {
+    font: normal 400 12px/12px 'Inter', Arial, sans-serif;
+    letter-spacing: 2px;
+    margin: auto auto 13px 35px;
+    padding: 0;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+
 }

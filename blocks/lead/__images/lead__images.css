@@ -1,6 +1,0 @@
-.lead__images {
-  display: flex;
-  position: relative;
-  width: calc((928 / 1024) * 100%);
-  margin: 56px auto 0;
-}

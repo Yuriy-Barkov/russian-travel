@@ -1,8 +1,0 @@
-.place__links {
-  display: grid;
-  grid-template-rows: repeat(2, auto);
-  gap: 12px;
-  grid-column: 2/3;
-  grid-row: 1/2;
-  align-content: end;
-}

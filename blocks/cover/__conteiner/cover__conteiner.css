@@ -4,3 +4,21 @@
   margin: auto;
   position: relative;
 }
+
+.cover__conteiner:before {
+  content: "";
+  position: absolute;
+  background: #2A2C2F;
+  width: 100%;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  opacity: .3;
+  transition: opacity 1s ease-in;
+}
+
+.cover__conteiner:hover::before {
+  opacity: .8;
+  transition: opacity .2s ease-in;
+  cursor: pointer;
+}
