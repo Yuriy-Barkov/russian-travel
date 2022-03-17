@@ -21,3 +21,5 @@
 Не забудьте [оптимизировать картинки](https://tinypng.com/), чтобы ваш сайт загружался быстрее.
 
 Удачи!
+
+https://github.com/Yuriy-Barkov/.github.io.git
