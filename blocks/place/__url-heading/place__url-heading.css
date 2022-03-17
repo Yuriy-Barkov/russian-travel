@@ -40,5 +40,10 @@
 }
 
 @media screen and (min-width: 1280px) {
-
+  .place__url-heading {
+    font: normal 400 12px/12px 'Inter', Arial, sans-serif;
+    letter-spacing: 2px;
+    margin: auto auto 13px 35px;
+    padding: 0;
+  }
 }

@@ -9,7 +9,9 @@
 }
 
 @media screen and (min-width: 425px) and (max-width: 767px) {
-
+  .footer__menu {
+    margin: 0 5% auto;
+  }
 }
 
 @media screen and (min-width: 768px) and (max-width: 1023px) {
@@ -29,5 +31,9 @@
 }
 
 @media screen and (min-width: 1280px) {
-
+  .footer__menu {
+    grid-template-columns: max-content max-content max-content max-content max-content;
+    margin: 26px auto 0 3.75%;
+    max-width: 68%;
+  }
 }

@@ -13,7 +13,12 @@
 }
 
 @media screen and (min-width: 425px) and (max-width: 767px) {
-
+  .place__link {
+    font: normal 400 18px/122% 'Inter', Arial, sans-serif;
+    text-decoration-line: underline;
+    margin: 12px 5% 0;
+    padding: 0;
+  }
 }
 
 @media screen and (min-width: 768px) and (max-width: 1023px) {
@@ -35,5 +40,10 @@
 }
 
 @media screen and (min-width: 1280px) {
-
+  .place__link {
+    font: normal 400 18px/122% 'Inter', Arial, sans-serif;
+    text-decoration-line: underline;
+    margin: auto auto 2px 35px;
+    padding: 0;
+  }
 }

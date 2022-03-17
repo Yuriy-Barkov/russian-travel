@@ -10,7 +10,9 @@
 }
 
 @media screen and (min-width: 425px) and (max-width: 767px) {
-
+  .intro__lists {
+    margin: 34px 0 0 5%;
+  }
 }
 
 @media screen and (min-width: 768px) and (max-width: 1023px) {
@@ -26,5 +28,7 @@
 }
 
 @media screen and (min-width: 1280px) {
-
+  .intro__lists {
+    margin: 32px 0 0 11.5%;
+  }
 }

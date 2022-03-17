@@ -23,9 +23,9 @@
 @media (min-width: 425px) and (max-width: 767px) {
   .cover__subtitle {
     font: normal normal 16px/19px Inter, Arial, sans-serif;
-    width: 50%;
+    width: 78%;
     bottom: 16.5%;
-    left: 25%;
+    left: 11%;
   }
 }
 
@@ -39,9 +39,19 @@
 }
 
 @media (min-width: 1024px) and (max-width: 1279px) {
-
+  .cover__subtitle {
+    font: normal 400 18px/22px 'Inter', Arial, sans-serif;
+    width: 48%;
+    bottom: 23.5%;
+    left: 26%;
+  }
 }
 
 @media (min-width: 1280px) {
-
+  .cover__subtitle {
+    font: normal 400 18px/22px 'Inter', Arial, sans-serif;
+    width: 31%;
+    bottom: 33%;
+    left: 34.5%;
+  }
 }

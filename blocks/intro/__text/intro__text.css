@@ -1,5 +1,5 @@
 .intro__text {
-  font: normal normal 16px/26px Inter, Arial, sans-serif;
+  font: normal normal 16px/26px 'Inter', Arial, sans-serif;
   color: #FFF;
 }
 
@@ -14,7 +14,13 @@
 }
 
 @media screen and (min-width: 425px) and (max-width: 767px) {
-
+  .intro__text {
+    margin: auto;
+    padding-top: 41px;
+    font: normal 400 16px/26px 'Inter';
+    width: 90%;
+    text-align: start;
+  }
 }
 
 @media screen and (min-width: 768px) and (max-width: 1023px) {
@@ -34,5 +40,10 @@
 }
 
 @media screen and (min-width: 1280px) {
-
+  .intro__text {
+    font: normal 400 16px/26px 'Inter', Arial, sans-serif;
+    margin: 0 0 0 11.5%;
+    padding: 39px 0 0;
+    width: 55%;
+  }
 }

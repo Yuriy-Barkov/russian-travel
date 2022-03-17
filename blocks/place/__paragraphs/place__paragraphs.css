@@ -10,7 +10,10 @@
 }
 
 @media screen and (min-width: 425px) and (max-width: 767px) {
-
+  .place__paragraphs {
+    width: 90%;
+    margin: 7px auto 0;
+  }
 }
 
 @media screen and (min-width: 768px) and (max-width: 1023px) {
@@ -30,5 +33,9 @@
 }
 
 @media screen and (min-width: 1280px) {
-
+  .place__paragraphs {
+    width: 92%;
+    margin: 20px 0 0 35px;
+    align-self: start;
+  }
 }

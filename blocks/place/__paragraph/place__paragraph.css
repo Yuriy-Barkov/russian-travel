@@ -11,7 +11,11 @@
 }
 
 @media screen and (min-width: 425px) and (max-width: 767px) {
-
+  .place__paragraph {
+    font: normal 400 16px/26px 'Inter', Arial, sans-serif;
+    margin: 25px auto 0;
+    padding: 0;
+  }
 }
 
 @media screen and (min-width: 768px) and (max-width: 1023px) {
@@ -31,5 +35,9 @@
 }
 
 @media screen and (min-width: 1280px) {
-
+  .place__paragraph {
+    font: normal 400 18px/162% 'Inter', Arial, sans-serif;
+    margin: 25px auto 0;
+    padding: 0;
+  }
 }
