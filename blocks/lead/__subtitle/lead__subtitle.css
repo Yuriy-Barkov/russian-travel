@@ -17,7 +17,7 @@
 @media screen and (min-width: 425px) and (max-width: 767px) {
   .lead__subtitle {
     font: normal normal 22px/26px 'Inter', Arial, sans-serif;
-    width: 83%;
+    width: 75%;
   }
 }
 
