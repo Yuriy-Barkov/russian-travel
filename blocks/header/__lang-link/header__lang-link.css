@@ -7,10 +7,6 @@
   transition: opacity 1s ease;
 }
 
-.header__lang-link_decoration_underline {
-  text-decoration-line: underline;
-}
-
 .header__lang-link:hover {
   opacity: .6;
   transition: opacity .5s ease;
