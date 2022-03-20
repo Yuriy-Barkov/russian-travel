@@ -3,15 +3,15 @@
   font: normal 400 30px/36px 'Inter', Arial, sans-serif;
   text-align: center;
   color: #FFF;
+  width: 90%;
 }
 
 @media screen and (min-width: 320px) and (max-width: 424px) {
   .lead__subtitle {
     margin: 16px auto 0;
     font: normal 400 16px/20px 'Inter', Arial, sans-serif;
-    width: 90%;
     padding: 0;
-    width: 70%;
+    width: 85%;
   }
 }
 
