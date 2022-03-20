@@ -1,42 +1,38 @@
 .place__image {
   grid-area: image;
   width: 100%;
+  object-fit: contain;
 }
 
 @media screen and (min-width: 320px) and (max-width: 424px) {
   .place__image {
-    object-fit: contain;
     margin: 32px 0 0 0;
   }
 }
 
 @media screen and (min-width: 425px) and (max-width: 767px) {
   .place__image {
-    object-fit: contain;
     margin: 32px 5% 0;
-    width: 90%;
+    width: 70%;
+    min-width: 360px;
   }
 }
 
-@media screen and (min-width: 768px) and (max-width: 1023px) {
+@media screen and (min-width: 768px) {
   .place__image {
     margin: 45px auto 0 0;
     align-self: start;
   }
 }
 
-@media screen and (min-width: 1024px) and (max-width: 1279px) {
+@media screen and (min-width: 1024px) {
   .place__image {
-    margin: 45px auto 0 0;
-    align-self: start;
     width: 101%;
   }
 }
 
 @media screen and (min-width: 1280px) {
   .place__image {
-    margin: 45px auto 0 0;
-    align-self: start;
     width: 99%;
   }
 }

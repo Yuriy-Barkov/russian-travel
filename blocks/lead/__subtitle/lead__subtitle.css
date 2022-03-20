@@ -11,32 +11,19 @@
     font: normal 400 16px/20px 'Inter', Arial, sans-serif;
     width: 90%;
     padding: 0;
+    width: 70%;
   }
 }
 
 @media screen and (min-width: 425px) and (max-width: 767px) {
   .lead__subtitle {
-    font: normal normal 22px/26px 'Inter', Arial, sans-serif;
+    font: normal 400 22px/26px 'Inter', Arial, sans-serif;
     width: 75%;
   }
 }
 
-@media screen and (min-width: 768px) and (max-width: 1023px) {
+@media screen and (min-width: 1024px) {
   .lead__subtitle {
-    width: 70%;
-  }
-}
-
-@media screen and (min-width: 1024px) and (max-width: 1279px) {
-  .lead__subtitle {
-    width: 70%;
-    max-width: 770px;
-  }
-}
-
-@media screen and (min-width: 1280px) {
-  .lead__subtitle {
-    width: 70%;
     max-width: 770px;
   }
 }

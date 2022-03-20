@@ -3,18 +3,21 @@
   text-align: right;
   color: #FFF;
   margin: auto 0 auto 18px;
+  text-decoration-line: none;
+  transition: opacity 1s ease;
 }
 
-.header__lang-link:first-of-type {
+.header__lang-link_decoration_underline {
   text-decoration-line: underline;
 }
 
-@media screen and (min-width: 320px) and (max-width: 424px) {
+.header__lang-link:hover {
+  opacity: .6;
+  transition: opacity .5s ease;
+}
+
+@media screen and (min-width: 320px) and (max-width: 767px) {
   .header__lang-link {
     font: normal 400 18px/20px 'Inter', Arial, sans-serif;
   }
-}
-
-@media screen and (min-width: 425px) and (max-width: 767px) {
-
 }

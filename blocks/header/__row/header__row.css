@@ -9,24 +9,27 @@
   }
 }
 
+@media (min-width: 425px) and (max-width: 1279px) {
+  .header__row {
+    padding: 28px 0 48px;
+  }
+}
+
 @media (min-width: 425px) and (max-width: 767px) {
   .header__row {
     margin: 0 4% 0;
-    padding: 28px 0 48px;
   }
 }
 
 @media (min-width: 768px) and (max-width: 1023px) {
   .header__row {
     margin: 0 3.125% 0;
-    padding: 28px 0 48px;
   }
 }
 
 @media (min-width: 1024px) and (max-width: 1279px) {
   .header__row {
     margin: 0 4.6875% 0;
-    padding: 28px 0 48px;
   }
 }
 
